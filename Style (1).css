@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #f68b1e; /* Jumia-style orange */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.cart-status {
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.price {
+  color: #f68b1e;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: #f68b1e;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:active {
+  background-color: #e07b10;
+}.btn-group {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.edit-btn {
+  background-color: #007bff; /* Blue button for Edit */
+}
+
+.edit-btn:active {
+  background-color: #0056b3;
+}
+

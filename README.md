@@ -1,2 +1,2 @@
-# new-acode-repo
+# Mini-juima-app
 Created via Acode
